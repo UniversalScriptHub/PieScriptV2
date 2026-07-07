@@ -9,7 +9,6 @@ OldNamecall = hookmetamethod(game, "__namecall", newcclosure(function(self, ...)
     local method = getnamecallmethod()
     local args = {...}
     if method == "Kick" and self == game.Players.LocalPlayer then
-        -- Blokir dengan mengembalikan nilai tanpa melakukan apapun
         print("Mencoba kick terdeteksi dan diblokir!")
         return nil
     end
