@@ -3,4 +3,4 @@ task.spawn(function()
 end)
 task.wait(0.2)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/UniversalScriptHub/main/refs/heads/main/maincode"))()
+loadstring(game:HttpGet("https://cdn.sourceb.in/bins/acqYFXKr0c/0"))()
