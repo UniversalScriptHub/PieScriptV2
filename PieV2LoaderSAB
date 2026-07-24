@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://pastebin.com/raw/sPmY42Fj"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UniversalScriptHub/rayfieldGuiSabMain/refs/heads/main/gui"))()
